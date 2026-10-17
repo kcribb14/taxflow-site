@@ -1,0 +1,21 @@
+Crypto Transactions,,,"To find out more information about our transaction reports, read our help article.",,,,,,,,,,,,,,,,
+Date,Time,Event,Asset,Amount,Currency,Value,Rate,AUD Value Fee,AUD Value,Fee Amount,Fee Asset,GST,ExGST,Deposited To,Withdrawn To,Withdrawal Fee,Reference,Transaction ID,UUID
+15-10-2023,10:00:00,reward,ADA,25,,,,0,10,0, ,,,,,,,,rew_01
+15-12-2023,10:00:00,reward,ADA,25,,,,0,11.25,0, ,,,,,,,,rew_02
+15-02-2024,10:00:00,reward,ADA,25,,,,0,13.75,0, ,,,,,,,,rew_03
+15-04-2024,10:00:00,reward,ADA,25,,,,0,12.5,0, ,,,,,,,,rew_04
+15-08-2024,10:00:00,reward,ADA,25,,,,0,12,0, ,,,,,,,,rew_05
+10-09-2024,10:30:00,buy,SOL,20,AUD,4040,200,40,4040,0.2,SOL,3.64,36.36,,,,,,ord_sol_buy
+15-10-2024,10:00:00,reward,ADA,25,,,,0,14.5,0, ,,,,,,,,rew_06
+05-12-2024,11:00:00,sell,SOL,10,AUD,2475,250,25,2475,25,AUD,2.27,22.73,,,,,,ord_sol_sell1
+15-12-2024,10:00:00,reward,ADA,25,,,,0,21.25,0, ,,,,,,,,rew_07
+15-01-2025,09:00:00,deposit,BTC,0.05,,,,0,6000,, ,,,bc1qsyntheticswyftxdeposit00000000,,,,9b1d4e7a2c5f80316d9ae4b7c2f5018d3a6e9b2c5f8a1d4e7b0c3f6a9d2e5b81,dep_01
+15-02-2025,10:00:00,reward,ADA,25,,,,0,19,0, ,,,,,,,,rew_08
+10-03-2025,11:00:00,sell,SOL,10,AUD,1485,150,15,1485,15,AUD,1.36,13.64,,,,,,ord_sol_sell2
+15-04-2025,10:00:00,reward,ADA,25,,,,0,15.75,0, ,,,,,,,,rew_09
+,,sub total,,,,,,80,,,,7.27,72.73,,,,,,
+
+Fiat Transactions,,,,,,,,,,,,,,,,,,,
+Date,Time,Event,Asset,Amount,Currency,Value,Rate,AUD Value Fee,AUD Value,Fee Amount,Fee Asset,GST,ExGST,Deposited To,Withdrawn To,Withdrawal Fee,Reference,Transaction ID,UUID
+01-08-2022,09:00:00,deposit,AUD,20000,,,,0,20000,, ,,,,,,,,dep_aud_01
+01-09-2024,09:00:00,deposit,AUD,5000,,,,0,5000,, ,,,,,,,,dep_aud_02

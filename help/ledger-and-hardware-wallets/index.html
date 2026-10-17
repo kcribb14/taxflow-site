@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en-AU"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/><title>Ledger and other hardware wallets: TaxFlow help</title><meta name="description" content="Bring a Ledger, Trezor or other hardware wallet&#x27;s history into TaxFlow using the Koinly universal CSV template, then match its transfers."/><meta name="robots" content="noindex, nofollow"/><meta name="color-scheme" content="light dark"/><meta name="theme-color" media="(prefers-color-scheme: light)" content="#FFFFFF"/><meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0E1618"/><link rel="canonical" href="https://kcribb14.github.io/taxflow-site/help/ledger-and-hardware-wallets/"/><meta property="og:type" content="article"/><meta property="og:site_name" content="TaxFlow"/><meta property="og:locale" content="en_AU"/><meta property="og:title" content="Ledger and other hardware wallets: TaxFlow help"/><meta property="og:description" content="Bring a Ledger, Trezor or other hardware wallet&#x27;s history into TaxFlow using the Koinly universal CSV template, then match its transfers."/><meta property="og:url" content="https://kcribb14.github.io/taxflow-site/help/ledger-and-hardware-wallets/"/><meta property="og:image" content="https://kcribb14.github.io/taxflow-site/og-image.png"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image:alt" content="TaxFlow: Australian crypto tax, worked out in your browser."/><meta name="twitter:card" content="summary_large_image"/><link rel="icon" href="../../favicon.svg" type="image/svg+xml"/><link rel="icon" href="../../favicon-32.png" sizes="32x32" type="image/png"/><link rel="apple-touch-icon" href="../../apple-touch-icon.png"/><link rel="manifest" href="../../manifest.webmanifest"/><script>(function(d){var r=d.documentElement;r.classList.add('js');try{var t=localStorage.getItem('taxflow-site-theme');if(t==='light'||t==='dark')r.setAttribute('data-theme',t)}catch(e){}})(document);</script><link rel="preload" href="../../assets/ibm-plex-sans-latin-400-normal-CDDApCn2.woff2" as="font" type="font/woff2" crossorigin="anonymous"/><link rel="preload" href="../../assets/ibm-plex-sans-condensed-latin-600-normal-CRd5VyFf.woff2" as="font" type="font/woff2" crossorigin="anonymous"/><link rel="stylesheet" href="../../assets/style-Bd6cvfMx.css"/><script type="module" src="../../assets/site-kSJr1mRU.js"></script></head><body><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="container header-row"><a class="brand" href="../../" aria-label="TaxFlow home"><svg class="brand-mark" width="28" height="28" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><rect width="32" height="32" rx="7" class="brand-mark-tile"></rect><path d="M8 11h16M16 11v13" stroke="#fff" stroke-width="3.2" stroke-linecap="round" fill="none"></path></svg><span class="brand-name">TaxFlow</span><span class="brand-tag">Beta</span></a><a class="btn btn-primary btn-sm header-cta" href="../../app/">Open the app</a><button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav" hidden=""><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false" class="icon"><path class="icon-open" d="M3 5.5h14M3 10h14M3 14.5h14"></path><path class="icon-close" d="M5 5l10 10M15 5L5 15"></path></svg><span class="nav-toggle-label">Menu</span></button><nav id="site-nav" class="site-nav" aria-label="Main"><ul class="nav-list"><li><a href="../../features/">Features</a></li><li><a href="../../exchanges/">Exchanges</a></li><li><a href="../../help/" aria-current="page">Help</a></li><li><a href="../../security/">Security</a></li><li><a href="../../pricing/">Pricing</a></li></ul><div class="nav-actions"><button type="button" class="theme-toggle" aria-label="Use dark theme" data-theme-toggle="true" hidden=""><svg width="18" height="18" viewBox="0 0 20 20" aria-hidden="true" focusable="false" class="icon icon-moon"><path d="M16.5 12.2A7 7 0 0 1 7.8 3.5a7 7 0 1 0 8.7 8.7Z"></path></svg><svg width="18" height="18" viewBox="0 0 20 20" aria-hidden="true" focusable="false" class="icon icon-sun"><circle cx="10" cy="10" r="3.6"></circle><path d="M10 1.8v2.2M10 16v2.2M1.8 10H4M16 10h2.2M4.2 4.2l1.6 1.6M14.2 14.2l1.6 1.6M4.2 15.8l1.6-1.6M14.2 5.8l1.6-1.6"></path></svg><span class="theme-toggle-text">Theme</span></button><a class="btn btn-primary btn-sm nav-cta" href="../../app/">Open the app</a></div></nav></div></header><main id="main" tabindex="-1"><header class="guide-head container"><nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../help/">Help centre</a></li><li><a href="../../help/#wallets">Wallets</a></li></ol></nav><h1>Ledger and other hardware wallets</h1><p class="lead">Bring a Ledger, Trezor or other hardware wallet&#x27;s history into TaxFlow using the Koinly universal CSV template, then match its transfers.</p><div class="guide-meta"><span>Updated <time dateTime="2026-10-17">17 October 2026</time></span><span class="status status-built-in">Built-in reader</span></div></header><div class="page-body"><div class="container guide-layout"><aside class="guide-aside" aria-label="About this guide"><nav class="on-page" aria-labelledby="on-page-h"><h2 id="on-page-h">On this page</h2><ol><li><a href="#step-1-get-the-wallets-history">Step 1: get the wallet&amp;#39;s history</a></li><li><a href="#step-2-put-it-in-the-koinly-template">Step 2: put it in the Koinly template</a></li><li><a href="#step-3-import-and-match">Step 3: import and match</a></li><li><a href="#gotchas">Gotchas</a></li></ol></nav><div class="aside-app"><p>Follow along in the app. Your files stay on your device.</p><a class="btn btn-primary btn-sm" href="../../app/">Open the app</a></div></aside><article class="guide-article"><p class="unverified"><span class="dot" aria-hidden="true"></span><span><strong>Written from public documentation.</strong> These steps have not yet been checked against a live account, so a menu name may differ. If something has moved, <a href="https://github.com/kcribb14/taxflow-site/issues/new" rel="noopener">tell us</a>.</span></p><div class="prose"><p>A hardware wallet is just a set of on-chain addresses you control. Ledger Live, Trezor Suite and similar apps can export an operations history, but in layouts that vary by app version and coin. The reliable route into TaxFlow is to put the wallet&#39;s history into the <strong>Koinly universal CSV template</strong>, a simple public layout that TaxFlow reads with a built-in importer. The sample portfolio&#39;s Ledger file uses exactly this route.</p>
+<h2 id="step-1-get-the-wallets-history">Step 1: get the wallet&#39;s history</h2>
+<ul>
+<li><strong>Ledger Live:</strong> open <strong>Accounts</strong>, select the account, and look for <strong>Export operations</strong> (or Settings, then Export operations, depending on version). Save the CSV.</li>
+<li><strong>Trezor Suite:</strong> open the account&#39;s <strong>Transactions</strong> and use the export option (CSV).</li>
+<li><strong>Any wallet:</strong> you can also use a block explorer&#39;s CSV export for each address. See <a href="../../help/metamask-and-onchain-wallets/">MetaMask and on-chain wallets</a>.</li>
+</ul>
+<p>These menus change between app versions; look for &quot;export&quot; in the account view.</p>
+<h2 id="step-2-put-it-in-the-koinly-template">Step 2: put it in the Koinly template</h2>
+<p>Create a CSV whose first row is these column names, in this order: <code>Date</code>, <code>Sent Amount</code>, <code>Sent Currency</code>, <code>Received Amount</code>, <code>Received Currency</code>, <code>Fee Amount</code>, <code>Fee Currency</code>, <code>Net Worth Amount</code>, <code>Net Worth Currency</code>, <code>Tag</code>, <code>Description</code>, <code>TxHash</code>. Only the date, amounts and currencies are required. The older version of the template, with <code>Label</code> instead of <code>Tag</code>, is also read.</p>
+<p>Rules TaxFlow applies, from Koinly&#39;s own template documentation:</p>
+<ul>
+<li><strong>Date</strong> is <code>YYYY-MM-DD HH:mm:ss</code> and <strong>must be UTC</strong>. Ledger Live and explorers usually give UTC; if yours gives local time, convert it first.</li>
+<li><strong>Amounts are gross:</strong> the fee is not taken out. A fee in the received currency is deducted by TaxFlow; any other fee is on top of the sent amount.</li>
+<li><strong>One row, one transaction.</strong> Received only is a deposit, sent only a withdrawal, both a trade or swap.</li>
+<li><strong>Net Worth Amount</strong> with Net Worth Currency <code>AUD</code> becomes the AUD value. Another currency is not converted and will be flagged.</li>
+<li><strong>TxHash</strong> is the on-chain transaction hash. Fill it in: it is what pairs a withdrawal from an exchange with the deposit into your wallet.</li>
+</ul>
+<div class="table-wrap" role="region" tabindex="0" aria-label="Table: Tag, Meaning in TaxFlow"><table>
+<thead>
+<tr>
+<th>Tag</th>
+<th>Meaning in TaxFlow</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>(blank) on a deposit or withdrawal</td>
+<td>A transfer, paired with your other wallets</td>
+</tr>
+<tr>
+<td>(blank), <code>swap</code>, <code>liquidity in</code>, <code>liquidity out</code> on a trade</td>
+<td>A trade (each is a CGT event)</td>
+</tr>
+<tr>
+<td><code>reward</code>, <code>mining</code>, <code>lending interest</code>, <code>other income</code>, <code>salary</code></td>
+<td>Income of that type</td>
+</tr>
+<tr>
+<td><code>airdrop</code></td>
+<td>An airdrop, not income; cost base its net worth (draft TR 2026/D1)</td>
+</tr>
+<tr>
+<td><code>fork</code></td>
+<td>A chain split: nil cost base</td>
+</tr>
+<tr>
+<td><code>cost</code></td>
+<td>A fee: the units are disposed of</td>
+</tr>
+<tr>
+<td><code>gift</code>, <code>donation</code></td>
+<td>A gift given, at net worth</td>
+</tr>
+<tr>
+<td><code>stake</code>, <code>unstake</code></td>
+<td>Ignored</td>
+</tr>
+<tr>
+<td><code>lost</code>, loans, margin, futures, <code>cashback</code></td>
+<td>Listed as unsupported for you to decide</td>
+</tr>
+</tbody></table>
+</div>
+<h2 id="step-3-import-and-match">Step 3: import and match</h2>
+<ol>
+<li>Open <a href="../../app/#/import">Import</a>, drop the CSV in, and check it is recognised as <strong>Koinly universal CSV</strong>.</li>
+<li>Name the wallet after the device and account, for example <strong>Ledger BTC</strong>.</li>
+<li>Add the file. There is no time zone question: the template is UTC by definition.</li>
+<li>In <a href="../../app/#/review">Review</a>, the exchange withdrawals that sent coins to this wallet should now be matched. Any left over are listed with the nearest candidate and why it did not match.</li>
+</ol>
+<h2 id="gotchas">Gotchas</h2>
+<ul>
+<li><strong>Network fees</strong> for sends from the wallet are disposals of tiny amounts of crypto and need an AUD value each. Put them in Fee Amount with the fee currency; online price lookup can value them.</li>
+<li><strong>Do not include transfers to yourself as trades.</strong> A send from the Ledger to an exchange is a withdrawal row (sent only), not a sale.</li>
+<li><strong>Staking from a hardware wallet</strong> (for example via Ledger Live) pays rewards on chain. Tag them <code>reward</code> with their AUD value at receipt.</li>
+<li><strong>Many addresses, one wallet.</strong> Bitcoin wallets use many addresses. Ledger Live&#39;s account export already combines them; explorer exports may not.</li>
+</ul>
+<p>See also <a href="../../help/transfers-between-your-wallets/">Transfers between your own wallets</a>.</p>
+</div><footer class="guide-foot"><p class="guide-advice">General information, not tax advice. TaxFlow is not a registered tax agent. Check your figures with one before you lodge.</p><nav class="pager" aria-label="More in Wallets"><a class="next" href="../../help/metamask-and-onchain-wallets/" rel="next"><span class="dir">Next</span><span class="t">MetaMask and other on-chain wallets</span></a></nav><nav class="related" aria-labelledby="related-h"><h2 id="related-h" class="aside-title">Also in Wallets</h2><ul><li><a href="../../help/transfers-between-your-wallets/">Transfers between your own wallets</a></li></ul></nav></footer></article></div></div></main><footer class="site-footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><a class="brand" href="../../" aria-label="TaxFlow home"><svg class="brand-mark" width="28" height="28" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><rect width="32" height="32" rx="7" class="brand-mark-tile"></rect><path d="M8 11h16M16 11v13" stroke="#fff" stroke-width="3.2" stroke-linecap="round" fill="none"></path></svg><span class="brand-name">TaxFlow</span></a><p>Australian crypto tax, worked out in your browser. Nothing is uploaded.</p><p class="footer-price">Free while in beta</p></div><nav class="footer-col" aria-label="Product"><h2>Product</h2><ul><li><a href="../../features/">Features</a></li><li><a href="../../exchanges/">Exchanges</a></li><li><a href="../../pricing/">Pricing</a></li><li><a href="../../security/">Security</a></li><li><a href="../../changelog/">Changelog</a></li><li><a href="../../app/">Open the app</a></li></ul></nav><nav class="footer-col" aria-label="Help"><h2>Help</h2><ul><li><a href="../../help/">Help centre</a></li><li><a href="../../help/#getting-started">Getting started</a></li><li><a href="../../help/#exchanges">Exchange guides</a></li><li><a href="../../contact/">Report a problem</a></li></ul></nav><nav class="footer-col" aria-label="About"><h2>About</h2><ul><li><a href="../../about/">About TaxFlow</a></li><li><a href="../../contact/">Contact</a></li></ul></nav><nav class="footer-col" aria-label="Legal"><h2>Legal</h2><ul><li><a href="../../legal/privacy/">Privacy</a></li><li><a href="../../legal/terms/">Terms of use</a></li><li><a href="../../legal/disclaimer/">Disclaimer</a></li></ul></nav></div><p class="footer-disclaimer"><strong>Not tax advice.</strong> TaxFlow gives general information and calculations from the data you import. It is not a registered tax agent. Check your figures with a registered tax agent before you lodge.</p><p class="footer-meta"><span>© 2026 TaxFlow</span><span>Not affiliated with the ATO or any exchange</span></p></div></footer></body></html>
