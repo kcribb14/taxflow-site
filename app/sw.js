@@ -50,18 +50,21 @@ self.addEventListener('fetch', (event) => {
   if (request.mode === 'navigate') {
     const path = url.href.split(/[?#]/)[0];
     if (path === SCOPE || path === INDEX) {
-      event.respondWith(caches.match(INDEX, { cacheName: CACHE }).then((hit) => hit || fetch(request)));
+      event.respondWith(caches.match(INDEX, { cacheName: CACHE, ignoreVary: true }).then((hit) => hit || fetch(request)));
     }
     return;
   }
 
   // Build files: cache first (their names change with their contents). Anything else: network, then cache.
+  // ignoreVary: a host that answers with "Vary: Origin" (CORS-enabled servers and CDNs) would otherwise never match
+  // the page's module-script requests, which carry an Origin header the precache requests did not, and the app
+  // would not start offline.
   event.respondWith(
-    caches.match(request, { cacheName: CACHE, ignoreSearch: true }).then(
+    caches.match(request, { cacheName: CACHE, ignoreSearch: true, ignoreVary: true }).then(
       (hit) =>
         hit ||
         fetch(request).catch(() =>
-          caches.match(request, { ignoreSearch: true }).then((old) => old || Response.error()),
+          caches.match(request, { ignoreSearch: true, ignoreVary: true }).then((old) => old || Response.error()),
         ),
     ),
   );

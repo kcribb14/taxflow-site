@@ -1,0 +1,1 @@
+function e(e){return Object.keys(e.years).sort()}function t(t,n){let r=n?e(n):[],i=t.settings.taxYear;return i&&r.includes(i)?i:r[r.length-1]}export{e as n,t};

@@ -1,0 +1,1 @@
+var e=`Powered by CoinGecko`;export{e as t};
