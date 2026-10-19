@@ -1,0 +1,1 @@
+import{t as e}from"./decimal-Bv0zIMLS.js";var t=e=>typeof e==`object`&&!!e&&typeof e.$d==`string`&&Object.keys(e).length===1;function n(n){return JSON.parse(n,(n,r)=>t(r)?new e(r.$d):r)}export{n as decodeComputation};

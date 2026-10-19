@@ -1,0 +1,1290 @@
+{
+  "schema": "taxflow-product/1",
+  "source": {
+    "sha": "1b74671a110ecfef91e579bc29eddc56ec1ea3f9",
+    "clean": true
+  },
+  "digest": "64dede1cee4970cd899d2d07e75d2a42693b89be45b06bae5972890e99c8edc7",
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "404.html",
+      "bytes": 10495,
+      "sha256": "56ff0a30ebebd9e4c23e8d10fa5104806e358a354e4be1eb75df62523049f0d6"
+    },
+    {
+      "path": "about/",
+      "kind": "directory"
+    },
+    {
+      "path": "about/index.html",
+      "bytes": 13156,
+      "sha256": "da9e04067e85e5fe3ad17650f89f510d78527a7c929b4f30428f7bc2baf7859f"
+    },
+    {
+      "path": "app/",
+      "kind": "directory"
+    },
+    {
+      "path": "app/assets/",
+      "kind": "directory"
+    },
+    {
+      "path": "app/assets/Bas-CORaa3ZA.js",
+      "bytes": 17428,
+      "sha256": "534c9bb695701e9939b58c919ae6582ed7c917132dd6c9c3b8dcc0872e363b04"
+    },
+    {
+      "path": "app/assets/CommandPalette-fUiUXEYD.js",
+      "bytes": 6585,
+      "sha256": "a3145f2d8c9fd1364012b8d438c44f1c443d50f9d719c47f6f45cb5bdbec53d6"
+    },
+    {
+      "path": "app/assets/Estimate-3eKnKzxD.js",
+      "bytes": 7092,
+      "sha256": "1ad87830544b0bac914a89b44cc244f3dfe2d0662f5661398b00730cabaf1f28"
+    },
+    {
+      "path": "app/assets/FlowCanvas-DLioOiRN.css",
+      "bytes": 15413,
+      "sha256": "b0cb7bd6fec5951c9c8f5808821438206604b1629a912c96009ac427f38e7d69"
+    },
+    {
+      "path": "app/assets/FlowCanvas-DeofpAXm.js",
+      "bytes": 187244,
+      "sha256": "d0a4b70678123288006acec423a8046741d7c7a919696fd5337474984de637bf"
+    },
+    {
+      "path": "app/assets/HistoricalPositions-CPNpm6ll.css",
+      "bytes": 829,
+      "sha256": "89dda2cf3af51ce5f66c570ae742852de1829098306a5833677b72a6b6ead29c"
+    },
+    {
+      "path": "app/assets/HistoricalPositions-DkkTSgKR.js",
+      "bytes": 9458,
+      "sha256": "c9bb81c1cfdca794f2bb1fc70486199f78f4ad115980c555b4fe2e6ff54bf7dc"
+    },
+    {
+      "path": "app/assets/Icon-Dkmg8IxY.js",
+      "bytes": 5553,
+      "sha256": "e55d112992a2c6bd67bf6af75e38d14b481729587ce1352ec44571c42268bd99"
+    },
+    {
+      "path": "app/assets/Import-BQ67u_JZ.js",
+      "bytes": 78722,
+      "sha256": "5a64f3b74191c08d6fc6297dcce3213f08e09a759da116224c5f03a95b6ec28d"
+    },
+    {
+      "path": "app/assets/Import-DcL0sLCM.css",
+      "bytes": 1261,
+      "sha256": "4f5b2c482b2c5e28e0986f9d771e8128fbbc2d9462c269c6f9f8bc1a435d4ca1"
+    },
+    {
+      "path": "app/assets/ImportedEventCorrection-D0xpicJi.js",
+      "bytes": 27235,
+      "sha256": "90c87fa1934149117e6414bf988ff6860cfda62315e9102544552c4ac1251baa"
+    },
+    {
+      "path": "app/assets/ImportedEventCorrection-rcmsHm0S.css",
+      "bytes": 774,
+      "sha256": "8fa47d441c3a17993409e684abfd50f208961acc283915cbab13f6028818b630"
+    },
+    {
+      "path": "app/assets/ManualEventForm-B4PxwPgY.js",
+      "bytes": 11385,
+      "sha256": "698e49ebf7ebdeaa5ec90a4a6475a7612b129835f728f31d6ee1e1f1e5dbe815"
+    },
+    {
+      "path": "app/assets/MethodWhatIf-B_FJK4ay.js",
+      "bytes": 1972,
+      "sha256": "7bd69c34dbeccb2581684126f19a0368ee9576f0a471b88dce931baa5caa9d1a"
+    },
+    {
+      "path": "app/assets/Overview-BLT0mYPm.js",
+      "bytes": 13926,
+      "sha256": "c1daa060d099d57eaee105cb26f3ca1215d6d202907ba386fea1a35486b70081"
+    },
+    {
+      "path": "app/assets/ProjectsDialog-Df39TnCA.js",
+      "bytes": 4306,
+      "sha256": "ca2de0477b8d17f472dbe97c57f169247526f7bc3db99fc14ec1a4ff4ae2e999"
+    },
+    {
+      "path": "app/assets/Settings-DyNEdfR0.js",
+      "bytes": 36168,
+      "sha256": "bbed1e449317d969c93ede538180b6ea7900f5e12f8c73d034d113ace4c6cce4"
+    },
+    {
+      "path": "app/assets/ValueRow-rFbfCQhU.js",
+      "bytes": 4365,
+      "sha256": "3b1a2a4e230f0a7137605a019eca62d33b8541991a0ab2f9e582413f92ec0e1a"
+    },
+    {
+      "path": "app/assets/WalletOptions-D-MxHUqM.js",
+      "bytes": 338,
+      "sha256": "804b806b2e81b0bb274bffe9229ebf622bf3d949a5b02c7efdc2a73f5acc9f46"
+    },
+    {
+      "path": "app/assets/WalletRemovalRecovery-BB2Eg0Bv.js",
+      "bytes": 12167,
+      "sha256": "95117a4642820bf88697f78331a93da488476d9a1c90072a76143e6969c214a2"
+    },
+    {
+      "path": "app/assets/WalletRemovalRecovery-BYhd_nde.css",
+      "bytes": 1005,
+      "sha256": "d7c190e090f263fa2a5e7a7825a8ec0c2b8653df39dcaaf0fcd56f721d872a0f"
+    },
+    {
+      "path": "app/assets/attribution-N-vZSNyZ.js",
+      "bytes": 44,
+      "sha256": "0d2db97edfcd4b1c53aa3929faaed1841bc5aec960d78fad1042250cdfd7e03f"
+    },
+    {
+      "path": "app/assets/b1-optimise-C83aohjF.js",
+      "bytes": 2951,
+      "sha256": "9fd11ac576b0b16be7b6c79b7a959ffac6969bce6dbcc0c6c071261ce920673d"
+    },
+    {
+      "path": "app/assets/b1-screens-CWV91EBp.js",
+      "bytes": 24316,
+      "sha256": "5a26c2a31c45724b5cc83b99889ede0237a64880ee4aac8e77446139f2175139"
+    },
+    {
+      "path": "app/assets/b1-screens-ClPPMbzp.css",
+      "bytes": 17596,
+      "sha256": "83dc131b9271243f2c47b16ce1927cde747c1d76a59db0d095783bf0bc0f39b5"
+    },
+    {
+      "path": "app/assets/b2-review-DJ-Yby4k.js",
+      "bytes": 12934,
+      "sha256": "dafde6aef69b2c45e4cae32b45e1be0e8c0e082c04eb29ce5e13bc61d25d916c"
+    },
+    {
+      "path": "app/assets/b3-docs-DMk_47vp.js",
+      "bytes": 37517,
+      "sha256": "3ad5b94fc235ec42d7d9ba62cbf7e58a15df6e3399938e8853967b462977ea5f"
+    },
+    {
+      "path": "app/assets/b3-filters-CAriG1pQ.js",
+      "bytes": 10836,
+      "sha256": "6f72eb453af94838e7e3462b01ec90459ef7ecfb2756d90fe65b19b972e9d133"
+    },
+    {
+      "path": "app/assets/b3-kit-BBkEdeM8.js",
+      "bytes": 2848,
+      "sha256": "4c9328481f74093113d66cb733306433c31e904999551e20703775fa4abd0e73"
+    },
+    {
+      "path": "app/assets/backup-CDKU1Yl9.js",
+      "bytes": 1696,
+      "sha256": "c478b17c61bca49cd339a7b25d093be95f6df3a207c86e93ddae77f05af66bef"
+    },
+    {
+      "path": "app/assets/cards-BZvRBp94.js",
+      "bytes": 28077,
+      "sha256": "0c3c8c944315eb9dd936fcca6500b5c15ef31bc528a73cc690a77410ceca9429"
+    },
+    {
+      "path": "app/assets/csv-Bw5eNfJX.js",
+      "bytes": 13018,
+      "sha256": "b3da3174d5b175c40493a3e9db47fdae4900c4dda562e21dcbb90ebe80908f0c"
+    },
+    {
+      "path": "app/assets/csv-export-safety-DkOMyQNo.js",
+      "bytes": 635,
+      "sha256": "db7f2ac0cb03b1694f01b067aab0504598133a7fadde2aaa271ab8fd09a1cf55"
+    },
+    {
+      "path": "app/assets/dashboard-BvJP4Ej2.js",
+      "bytes": 37360,
+      "sha256": "e38d4007173ae7a567dd09cdc0448bd09c9954c27c5be179baa93575f9bbc231"
+    },
+    {
+      "path": "app/assets/dashboard-q2bsYiu8.css",
+      "bytes": 1650,
+      "sha256": "0dfe47311c39849c236104150e01b794b5943de38b34cf836675d14548c58704"
+    },
+    {
+      "path": "app/assets/decimal-Bv0zIMLS.js",
+      "bytes": 32162,
+      "sha256": "8d02ab90bbea5869ab3a4ec2b7a40f6c0cc590e9a19211a11154314cefd5b4c6"
+    },
+    {
+      "path": "app/assets/describe-BtLAWpWE.js",
+      "bytes": 2088,
+      "sha256": "be42c58be31f6de04c58d7701f2f75042c29efae2801f06d375d147534e80104"
+    },
+    {
+      "path": "app/assets/dm-sans-latin-wght-normal-Xz1IZZA0.woff2",
+      "bytes": 36932,
+      "sha256": "9fea608a947e67020c33cad9a6fe3d60c54119dfb8cff87768a8117a15ed7543"
+    },
+    {
+      "path": "app/assets/estimate-_54Zi6c4.js",
+      "bytes": 6129,
+      "sha256": "2ad9293492403e6e7e41656f2414010edbe5cd9ddbf74ee60b63b8117db9cb96"
+    },
+    {
+      "path": "app/assets/exportFiles-BacDJlOl.js",
+      "bytes": 31869,
+      "sha256": "27179cf7dc422820f5baba1f239beec6d83beed60aa54dd95ba2ce5d18e002a6"
+    },
+    {
+      "path": "app/assets/flow-7gI4pSQx.js",
+      "bytes": 39132,
+      "sha256": "962b45c572ad1133cc1df79976bed734256fd44fed670e0622efc0a1b91c9e9a"
+    },
+    {
+      "path": "app/assets/flow-DDz-Sf4F.css",
+      "bytes": 16257,
+      "sha256": "a48d176bdf6fd8dd7b2f75af63671aa0271429d0559f1284255a3714504f314f"
+    },
+    {
+      "path": "app/assets/format-B_6XU5vQ.js",
+      "bytes": 3320,
+      "sha256": "a60cf1b6c03321786de5e23741ca4c8fa251b4897f32157779f1a876f7b8ac99"
+    },
+    {
+      "path": "app/assets/help-CT1q_H3r.js",
+      "bytes": 691,
+      "sha256": "fb9f571e395ccfec61a4f7bc1dddf9e1a3451120531136198eae98e12a0dba06"
+    },
+    {
+      "path": "app/assets/holdings-DAghlOkd.js",
+      "bytes": 36300,
+      "sha256": "cad487f4c92845c90b13385b172dd97bc513eb6be5410bf4fc24124286d04594"
+    },
+    {
+      "path": "app/assets/index-D-ufKeHn.css",
+      "bytes": 81852,
+      "sha256": "fd9be98e6a8e30ee2552f89b0ec474d070a5bf4c462f34db2aa6cc45952f7005"
+    },
+    {
+      "path": "app/assets/index-K_Z3jwcE.js",
+      "bytes": 240464,
+      "sha256": "7fe57d3dec1c548c7aaaa2a39dd600f88c1105817329a1204e69847c0e5eda6d"
+    },
+    {
+      "path": "app/assets/insights-BkIodQNj.js",
+      "bytes": 14100,
+      "sha256": "ccc0a27a03b01f3755d524b134fea307c58f34302d174473eb95b319c6b344d0"
+    },
+    {
+      "path": "app/assets/insightsRuntime-BMNFJxmt.js",
+      "bytes": 879,
+      "sha256": "932c40bc7ea9cb52b70a6093ee9d888b16f0d1c8c8ca3e08c6606ece03ef666c"
+    },
+    {
+      "path": "app/assets/instrument-serif-latin-400-italic-DKMiL14s.woff2",
+      "bytes": 22128,
+      "sha256": "5a51946dfffa82972bc98745359c46761515641fda557c25116459a9f83da4a7"
+    },
+    {
+      "path": "app/assets/instrument-serif-latin-400-normal-DnYpCC2O.woff2",
+      "bytes": 21032,
+      "sha256": "5eb09b5ac0e28b67c2f041c8ba6d244604ca0c0980d65912ab2d47fed84ddc31"
+    },
+    {
+      "path": "app/assets/jetbrains-mono-latin-400-normal-V6pRDFza.woff2",
+      "bytes": 21168,
+      "sha256": "14425ba9c695763c1547f48a206b7aa60350a33ae23de09f0407877f3fcd89eb"
+    },
+    {
+      "path": "app/assets/jetbrains-mono-latin-500-normal-BWZEU5yA.woff2",
+      "bytes": 21832,
+      "sha256": "cb182feeed4d798ff6961d3c79f7026279448fca0676438aaecb21f3fc39553a"
+    },
+    {
+      "path": "app/assets/jsx-runtime-BsPR_7g3.js",
+      "bytes": 7783,
+      "sha256": "d3d6d6951173f1c5c304f57d532816acefb1c8595e7eb8ea7a18a25da7424651"
+    },
+    {
+      "path": "app/assets/locks-Db_qk506.js",
+      "bytes": 334400,
+      "sha256": "19ba4d846b4ef9cd0cffccb24b3aec77bbc1ca885742d0d5fbdc28538bec1480"
+    },
+    {
+      "path": "app/assets/model-CEM3mhx3.js",
+      "bytes": 4271,
+      "sha256": "740bc4188cbc94610a3214e5d580c1d538cb8d5db63b96ba75bf45ac34b0f559"
+    },
+    {
+      "path": "app/assets/optimise-qUq3c6PJ.js",
+      "bytes": 19151,
+      "sha256": "dad1b24d764327ed205f9ab96281fba569eab0ec14959157053401a24d70344b"
+    },
+    {
+      "path": "app/assets/parts-BMcmgaDI.js",
+      "bytes": 2425,
+      "sha256": "67b61504263becd82721ba9eef2e4bc74bb9d835016447c8240e265e8b1636ae"
+    },
+    {
+      "path": "app/assets/persistence-BcqpUeuk.js",
+      "bytes": 15056,
+      "sha256": "33a1ed9ecdbc6071d293ec29f0c9ff0b13618703103aa7227e639c3599cde82e"
+    },
+    {
+      "path": "app/assets/persistence-DPHAwNb6.js",
+      "bytes": 15817,
+      "sha256": "beacd6723c4e3016fab800a3f55c5f7e64a98cacc7373b57d6a176b7d0ec9a07"
+    },
+    {
+      "path": "app/assets/priceRuntime-B6c9Zqmq.js",
+      "bytes": 39480,
+      "sha256": "0792ccc986dfe9fa747095bf81e32cc640f5007dde6497f6a40bc566f5fa06b0"
+    },
+    {
+      "path": "app/assets/reconcile-C_XayHUR.js",
+      "bytes": 11419,
+      "sha256": "28599ef13708383bf3c34b71c81f7342b2fae504a567ba95b2fc1c32c03e56da"
+    },
+    {
+      "path": "app/assets/reconcile-CahN0Pel.css",
+      "bytes": 1143,
+      "sha256": "cbcf154aae2fe4fdbdef29679f710503012cc138c7668679b2cd7e884c7469fe"
+    },
+    {
+      "path": "app/assets/report-positions-BBfD_eFN.js",
+      "bytes": 3299,
+      "sha256": "91da7937f1152c21a173599fb122e8d31c78bec05a122242a08f99a6be816ed3"
+    },
+    {
+      "path": "app/assets/reports-CYDeSMPC.css",
+      "bytes": 7433,
+      "sha256": "50efb8f40712ddd222121bfce36319cb27f754998a85332bfa3dfdc8860ad58d"
+    },
+    {
+      "path": "app/assets/reports-CwVswRX8.js",
+      "bytes": 87650,
+      "sha256": "ebafbfd55763133ee18ebe488a44a7ca7a6b804bcf1fb12bb901eb9a2c5a0c52"
+    },
+    {
+      "path": "app/assets/review-BBn1Eyb1.js",
+      "bytes": 31963,
+      "sha256": "3c07ae0f0bdd0ff02a6671d083c9403973b2655a194d931a6218ec9b7248ae56"
+    },
+    {
+      "path": "app/assets/review-Bu1Hq0bV.css",
+      "bytes": 9184,
+      "sha256": "ab596a2713c286080e2fb8d8b4a0773f700f1dd381a14b427b5e354b916a3722"
+    },
+    {
+      "path": "app/assets/rules-Dox6ncMo.js",
+      "bytes": 4021,
+      "sha256": "ac1cfc56aa6b4e5dc3403a6d28ff181f26336e2c8a04081dff959116c1a8c08c"
+    },
+    {
+      "path": "app/assets/session-BejoNxA1.js",
+      "bytes": 19819,
+      "sha256": "42a5707ac2dd8f95c82d20fb9efcc2202ed401bd8fb73efbce569d7141b6ea9f"
+    },
+    {
+      "path": "app/assets/session-DkHe5O9U.js",
+      "bytes": 21853,
+      "sha256": "3e36603a3aa364cce2d9eb1a4ec7bca76fc3b34ff5203ee49832a87ebf178c26"
+    },
+    {
+      "path": "app/assets/sources-D5nIpnPJ.css",
+      "bytes": 238,
+      "sha256": "aea4a958c3f14a77bce454961ed001f5cb189035a0cff43d5f4a47b767964dbf"
+    },
+    {
+      "path": "app/assets/state-zHyk5cFM.js",
+      "bytes": 3005,
+      "sha256": "6ca343e11ec453a528b6807ea17794840ef60cc719bab3516b946f104460a992"
+    },
+    {
+      "path": "app/assets/storage-BmDwYeiN.js",
+      "bytes": 9231,
+      "sha256": "d2a045261bb2f8940f65c204965dabd911fc65118ccb48c4b659b6b9e586e1a2"
+    },
+    {
+      "path": "app/assets/storage-ZaXQABTz.js",
+      "bytes": 13430,
+      "sha256": "be018c6e1919c6188bfba68d1884f9ff307a2fedb4440b4b0cfcd78e4cc85c6e"
+    },
+    {
+      "path": "app/assets/storeRuntime-BODi2dvI.js",
+      "bytes": 1651,
+      "sha256": "25d7910b597a2ad20c825758170c91f62a1542bbb3db111aa164de7bd0c2e68c"
+    },
+    {
+      "path": "app/assets/suggestions-DUhM2g2I.js",
+      "bytes": 9064,
+      "sha256": "9c3233772c983c16c5104e1e54887df56bbafefc6854ae228c5d74225ee63193"
+    },
+    {
+      "path": "app/assets/transactions-BOo2u6W-.css",
+      "bytes": 10116,
+      "sha256": "ae2c82c0060feda95c207eab68b880501adf06308178cf30ff3a1a7000b4b5db"
+    },
+    {
+      "path": "app/assets/transactions-DoHTUkXB.js",
+      "bytes": 74400,
+      "sha256": "7a5012a4c2de2bc54187265ceb2fd7f9a7484dc29849d8fd26ac783d267f43f6"
+    },
+    {
+      "path": "app/assets/ui-DArBL6tE.js",
+      "bytes": 4173,
+      "sha256": "e7b3b3b4cf9e3905d201f7cbff11cdd94201ba422d21351513bcfb41eef53263"
+    },
+    {
+      "path": "app/assets/wallet-inventory-BtsBfUoE.js",
+      "bytes": 5536,
+      "sha256": "f43761944b0a5373241abd0bbfcc68ceaac4416b2e467102d86a6dfd9a6109f4"
+    },
+    {
+      "path": "app/assets/wire-CClLx861.js",
+      "bytes": 217,
+      "sha256": "d6037e8714c027caa759e49d64c8fc4eb0637672a23b6a776e5b951de765d54f"
+    },
+    {
+      "path": "app/assets/worker-C-nWnvPc.js",
+      "bytes": 326964,
+      "sha256": "e9f13f540e11664b063549abc6e3ba0c107621cca2b443cd5a2387631cbbbb5c"
+    },
+    {
+      "path": "app/icons/",
+      "kind": "directory"
+    },
+    {
+      "path": "app/icons/apple-touch-icon.png",
+      "bytes": 3105,
+      "sha256": "40df647eab2bc2b36e71dd9504740bd03a0aca73b41defd3dc3a27b2571dec31"
+    },
+    {
+      "path": "app/icons/icon-192.png",
+      "bytes": 7077,
+      "sha256": "d0c2b9b7c324690bd8ee877e84edfeb19c47a1e2b7fa7af7f4e5aa4e7d4f31a3"
+    },
+    {
+      "path": "app/icons/icon-512.png",
+      "bytes": 34584,
+      "sha256": "3a0a3597e34159485af8cab9ada9a9513524dab90b8bb5fe9cd7093b049c74ff"
+    },
+    {
+      "path": "app/icons/icon-maskable-512.png",
+      "bytes": 15167,
+      "sha256": "2bab106c8807fdcb90bca4159ba777ac7bed0cd5a1e159450a225324d5fd57f7"
+    },
+    {
+      "path": "app/icons/icon.svg",
+      "bytes": 913,
+      "sha256": "2379521f38e0394a0b05f949e4f49d777d3363238289051657a9b20a3398509c"
+    },
+    {
+      "path": "app/index.html",
+      "bytes": 2664,
+      "sha256": "b1440624c131b9d498423ee166998753d0446f8631904d25922ba013f8b262f1"
+    },
+    {
+      "path": "app/manifest.webmanifest",
+      "bytes": 985,
+      "sha256": "b3d400efc1c866c42c93c0ab3caa1f04deb7184173c8846f79b9a69354ceb347"
+    },
+    {
+      "path": "app/samples/",
+      "kind": "directory"
+    },
+    {
+      "path": "app/samples/coinspot-orders.csv",
+      "bytes": 492,
+      "sha256": "326c0c55bd68b2add0fc8cc8546fc57896845f6fa9077af23020e2452224b4c9"
+    },
+    {
+      "path": "app/samples/coinspot-sends-receives.csv",
+      "bytes": 209,
+      "sha256": "5f69ad61caed80960314bf5933d76d963d8cce2c288dd5df63f58b41a05b0b24"
+    },
+    {
+      "path": "app/samples/ledger-koinly.csv",
+      "bytes": 545,
+      "sha256": "6fb2ccfb7ed2a46651966645a554e44e9014409161023354e0d985ff4e9200fd"
+    },
+    {
+      "path": "app/samples/swyftx-transactions.csv",
+      "bytes": 1675,
+      "sha256": "e555ae14ed0f8ac50df542548c6754d75a24c2cf59aa18c802aef6f69857317e"
+    },
+    {
+      "path": "app/sw-precache.js",
+      "bytes": 3431,
+      "sha256": "4186426d2a6dfef10a336f901f27d5a8d1cd84ae0bc33699363e16579f72648f"
+    },
+    {
+      "path": "app/sw.js",
+      "bytes": 3053,
+      "sha256": "92e5b507378db5735dbb4f724df2cf2de1d60ac6296c3b742f7470d925ff5019"
+    },
+    {
+      "path": "apple-touch-icon.png",
+      "bytes": 3608,
+      "sha256": "d14cc3c9f2f403bb03bfb1028b1d83755724e3411496f5bbd2b2f5ec2088d0f3"
+    },
+    {
+      "path": "assets/",
+      "kind": "directory"
+    },
+    {
+      "path": "assets/dm-sans-latin-wght-normal-Xz1IZZA0.woff2",
+      "bytes": 36932,
+      "sha256": "9fea608a947e67020c33cad9a6fe3d60c54119dfb8cff87768a8117a15ed7543"
+    },
+    {
+      "path": "assets/flow-C14Z87D9.js",
+      "bytes": 2203,
+      "sha256": "c18ff31179c16e4f8d170b19456d6db31877402f607a18262bc085140367287c"
+    },
+    {
+      "path": "assets/instrument-serif-latin-400-italic-DKMiL14s.woff2",
+      "bytes": 22128,
+      "sha256": "5a51946dfffa82972bc98745359c46761515641fda557c25116459a9f83da4a7"
+    },
+    {
+      "path": "assets/instrument-serif-latin-400-normal-DnYpCC2O.woff2",
+      "bytes": 21032,
+      "sha256": "5eb09b5ac0e28b67c2f041c8ba6d244604ca0c0980d65912ab2d47fed84ddc31"
+    },
+    {
+      "path": "assets/jetbrains-mono-latin-400-normal-V6pRDFza.woff2",
+      "bytes": 21168,
+      "sha256": "14425ba9c695763c1547f48a206b7aa60350a33ae23de09f0407877f3fcd89eb"
+    },
+    {
+      "path": "assets/jetbrains-mono-latin-500-normal-BWZEU5yA.woff2",
+      "bytes": 21832,
+      "sha256": "cb182feeed4d798ff6961d3c79f7026279448fca0676438aaecb21f3fc39553a"
+    },
+    {
+      "path": "assets/search-CCPxUBcd.js",
+      "bytes": 988,
+      "sha256": "e154fd132f01fceaed7e667f56a8e2acf90e71a97de7b0e908a41758e8750b05"
+    },
+    {
+      "path": "assets/site-kSJr1mRU.js",
+      "bytes": 1701,
+      "sha256": "d993d766f18e8ddbb3a23f057aeb054a4f251b949b7eccb519344b7737911c92"
+    },
+    {
+      "path": "assets/style-BAKLnnwR.css",
+      "bytes": 52123,
+      "sha256": "0d3c57f43e7440bad6072059b88667eb6182777a85a86289b53bc6430d528f4f"
+    },
+    {
+      "path": "brand/",
+      "kind": "directory"
+    },
+    {
+      "path": "brand/lockup-light.svg",
+      "bytes": 1631,
+      "sha256": "e5499bad8782cc8991656660939f716ad76fbb6604a8d3fdc07b6f07257031ce"
+    },
+    {
+      "path": "brand/lockup.svg",
+      "bytes": 1631,
+      "sha256": "69e99e47caba6ed10658764c68b95e1e706803453dea40877f7031bdfc43f22a"
+    },
+    {
+      "path": "brand/mark-light.svg",
+      "bytes": 471,
+      "sha256": "1171c027957898c131c20e9b1cd2836e82515b70ae061726bfae323271a7e3ed"
+    },
+    {
+      "path": "brand/mark.svg",
+      "bytes": 471,
+      "sha256": "e3b58e3812b8f1bfc8b66f0c0bed042429c2437f034dc2a1de90531d29611e35"
+    },
+    {
+      "path": "changelog/",
+      "kind": "directory"
+    },
+    {
+      "path": "changelog/index.html",
+      "bytes": 14568,
+      "sha256": "03dde76be8a24a5164224294c585dee523eb07460799cbf8ae47ae689e0b2cd0"
+    },
+    {
+      "path": "contact/",
+      "kind": "directory"
+    },
+    {
+      "path": "contact/index.html",
+      "bytes": 11820,
+      "sha256": "34dc64950ccfa6bc942659541c2c6a14998b1862bf6d2de5dbc2ae52513527dc"
+    },
+    {
+      "path": "exchanges/",
+      "kind": "directory"
+    },
+    {
+      "path": "exchanges/index.html",
+      "bytes": 18558,
+      "sha256": "77d22fe02156df817b4d88e0c42877ecdfa6164d9f45343cd673326e0a667778"
+    },
+    {
+      "path": "favicon-32.png",
+      "bytes": 812,
+      "sha256": "ef2f555074c977493bd50e179c75c577b9c9336b08ab5943a1d22d668a1b4d86"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 572,
+      "sha256": "994733bb96d0097aed59d6fe3d4c8b169515589dfafc025809ed15d078d2601f"
+    },
+    {
+      "path": "features/",
+      "kind": "directory"
+    },
+    {
+      "path": "features/index.html",
+      "bytes": 28679,
+      "sha256": "aef9e17625ea71803edb6aa8df6efd9201969b98b7e79525cc19036302bc0c8b"
+    },
+    {
+      "path": "help/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/agent-pack/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/agent-pack/index.html",
+      "bytes": 17329,
+      "sha256": "66fa40b14f3c9f69b7bc0201a0d2560d052ac04ca407f65b62583ce1647af77d"
+    },
+    {
+      "path": "help/airdrops/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/airdrops/index.html",
+      "bytes": 17708,
+      "sha256": "dcb6b8f1124c024a0133575438ec3fe212169dc4769fca1ae9c37bcb4b46c2e0"
+    },
+    {
+      "path": "help/backup-and-move-your-data/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/backup-and-move-your-data/index.html",
+      "bytes": 17582,
+      "sha256": "1c02795c17a901b1bfa32ea2cb3a2b60a19f9acf11fe7cde3fff8138b4d8b294"
+    },
+    {
+      "path": "help/bas-and-gst-for-crypto/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/bas-and-gst-for-crypto/index.html",
+      "bytes": 17036,
+      "sha256": "5c8cf4592a46aba10df88bc9ed934eda148c7ce980c0643083ac2546ad3f7396"
+    },
+    {
+      "path": "help/carried-forward-losses/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/carried-forward-losses/index.html",
+      "bytes": 16214,
+      "sha256": "99a7398c02fdc0a716d99a6a79ded52be818efbe72db1d1283cca8b9f03f8345"
+    },
+    {
+      "path": "help/cgt-discount-12-months/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/cgt-discount-12-months/index.html",
+      "bytes": 17400,
+      "sha256": "185c957efc723e2fe4ad8a88746bec82861997258949ea44061e722d8ad512e5"
+    },
+    {
+      "path": "help/cgt-events-for-crypto/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/cgt-events-for-crypto/index.html",
+      "bytes": 17042,
+      "sha256": "0dd4e31dc57fa068075b701640190aadc774d092be54d3fb6a49aaf7c2806739"
+    },
+    {
+      "path": "help/closing-stock/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/closing-stock/index.html",
+      "bytes": 16192,
+      "sha256": "cdaeae2cb9010f459fd0d5d36c3a9006d2d061a487de72730847c09c18519c98"
+    },
+    {
+      "path": "help/collectables-and-nfts/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/collectables-and-nfts/index.html",
+      "bytes": 16071,
+      "sha256": "88abf0f25b6561b515afb7b5f68ce5002b73c52bd56838e96262ff1522752d62"
+    },
+    {
+      "path": "help/column-mapper/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/column-mapper/index.html",
+      "bytes": 17409,
+      "sha256": "30f42f6698bff6b045b23379f6c1df78876323fe751300620d1ca905cce61c25"
+    },
+    {
+      "path": "help/delete-your-data/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/delete-your-data/index.html",
+      "bytes": 16198,
+      "sha256": "e1aefc8111fd1ad10cf9cad3c626a8b531989297e6cec74c777249b54a66ac4d"
+    },
+    {
+      "path": "help/export-binance/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/export-binance/index.html",
+      "bytes": 17981,
+      "sha256": "6fcfad796e378959a641883e58833d0beb8a1f3c4ce75475689ef5b673c1411f"
+    },
+    {
+      "path": "help/export-btc-markets/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/export-btc-markets/index.html",
+      "bytes": 17181,
+      "sha256": "b7a59ca76697d147ca19aee6a63e670442f6c03c0b9c0a82d82318a379b0b084"
+    },
+    {
+      "path": "help/export-bybit/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/export-bybit/index.html",
+      "bytes": 16899,
+      "sha256": "8b1124a988a3e2b7fe6a35d811a25ce707b0b9d92443afbef508477ba70278fa"
+    },
+    {
+      "path": "help/export-coinbase/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/export-coinbase/index.html",
+      "bytes": 17474,
+      "sha256": "6d104958b7cb4f36089a1b3931c4d7f1c73d5ab31d54f152357de5e472e5ec54"
+    },
+    {
+      "path": "help/export-coinjar/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/export-coinjar/index.html",
+      "bytes": 17029,
+      "sha256": "9ff0fa2d4afb2345fbf3b80230811e3d6858a1a024c8ed8750e8e6b439eb184c"
+    },
+    {
+      "path": "help/export-coinspot/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/export-coinspot/index.html",
+      "bytes": 17530,
+      "sha256": "cdb1f4f7c04320bb3aad8bc5ddc31338543ea889ea9a06f79dbedf306bb7a634"
+    },
+    {
+      "path": "help/export-crypto-com/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/export-crypto-com/index.html",
+      "bytes": 16819,
+      "sha256": "c2676e50bf3d6bb3fca9333d426be53ec6c5cf95253d1a1d552e3970a2c91500"
+    },
+    {
+      "path": "help/export-digital-surge/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/export-digital-surge/index.html",
+      "bytes": 16724,
+      "sha256": "19c3da07b9bc94d08f7159e0e156943d6ac43c3f612695744ac58d8b1eaa7657"
+    },
+    {
+      "path": "help/export-independent-reserve/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/export-independent-reserve/index.html",
+      "bytes": 17059,
+      "sha256": "d4e90badd43895090b173cc41bb63bc5bdb54cc88c30976a6c43b930e8815854"
+    },
+    {
+      "path": "help/export-kraken/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/export-kraken/index.html",
+      "bytes": 17304,
+      "sha256": "52019ecd75f9d94a05028de943576a2a61e7792751300e7019d9aeaa705e4aa7"
+    },
+    {
+      "path": "help/export-kucoin/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/export-kucoin/index.html",
+      "bytes": 16831,
+      "sha256": "f14e992865fa955d4a30b7af19d2ac6b48cba27a6ff43730f072e512439b24ca"
+    },
+    {
+      "path": "help/export-okx/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/export-okx/index.html",
+      "bytes": 16485,
+      "sha256": "f26dcf059f3f0de17cb3d285db1d6e4692941e80112c997c87f8e1ac5a459729"
+    },
+    {
+      "path": "help/export-swyftx/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/export-swyftx/index.html",
+      "bytes": 17160,
+      "sha256": "4849ea0b8d46ccaa8dab19087d0daa9a0ed7a708a0c65b519e19fb72256e7179"
+    },
+    {
+      "path": "help/first-return-in-15-minutes/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/first-return-in-15-minutes/index.html",
+      "bytes": 17048,
+      "sha256": "977f8dd12d3eab26d2c297197524869a3e66ab2fd29aea14b8c92566ce262291"
+    },
+    {
+      "path": "help/foreign-and-temporary-residents/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/foreign-and-temporary-residents/index.html",
+      "bytes": 17023,
+      "sha256": "6a6dbe1408cf2edcf22856d41d6826647e5d9089b39ba26ac0beeefc9c471f81"
+    },
+    {
+      "path": "help/how-review-flags-work/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/how-review-flags-work/index.html",
+      "bytes": 16241,
+      "sha256": "6102c01608a423eb8cb9c3f39dc2e4691bd4fd89b37fbab9ef60a669f7444cf8"
+    },
+    {
+      "path": "help/index.html",
+      "bytes": 35837,
+      "sha256": "274cf80e2c93d0b696a74eb4bffebcdb78a6e20cac4b0a825f14d08783c7739a"
+    },
+    {
+      "path": "help/ledger-and-hardware-wallets/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/ledger-and-hardware-wallets/index.html",
+      "bytes": 17522,
+      "sha256": "23c709f45f0c4474874443b9ddd3fe48dc4b8e9ab9c321becba6588315e3c72c"
+    },
+    {
+      "path": "help/lost-or-stolen-crypto/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/lost-or-stolen-crypto/index.html",
+      "bytes": 16348,
+      "sha256": "f9f29a01904677e72a62fee0d25483bfdd134d2081704b982bf3819308fc1c46"
+    },
+    {
+      "path": "help/metamask-and-onchain-wallets/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/metamask-and-onchain-wallets/index.html",
+      "bytes": 16369,
+      "sha256": "8895f9a350ce5b72d893984947585eb803dadda21cbc409ee8392bdc8feae3d6"
+    },
+    {
+      "path": "help/mytax-item-18/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/mytax-item-18/index.html",
+      "bytes": 20112,
+      "sha256": "a7499452a6840ee66f86f41a0fab266eb54fc480df6a483a9f9a662b5a3fbe90"
+    },
+    {
+      "path": "help/other-income-staking-airdrops/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/other-income-staking-airdrops/index.html",
+      "bytes": 17399,
+      "sha256": "b8d0c1e8f40ef3a9ef0a2f40132066feb3f7f635c170485293d267c4467a42c3"
+    },
+    {
+      "path": "help/parcel-methods/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/parcel-methods/index.html",
+      "bytes": 17079,
+      "sha256": "b231d8d57ed5f9d1107359a058579534b8c65fb4fc4b2cbe383efd82d43f9b5b"
+    },
+    {
+      "path": "help/payg-instalments/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/payg-instalments/index.html",
+      "bytes": 16194,
+      "sha256": "928ce76fef581958bd20e3eb3f66236d9211309ea189bc5488afc8be54416158"
+    },
+    {
+      "path": "help/personal-use-assets/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/personal-use-assets/index.html",
+      "bytes": 16164,
+      "sha256": "ce915a22285da06f302db617820b0a999d4a15b23b7e0b36d2e65cf107fed141"
+    },
+    {
+      "path": "help/record-keeping/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/record-keeping/index.html",
+      "bytes": 16671,
+      "sha256": "a184a60131f6235fac94723e65810c14dbb9699f80ff00618aeb38342b483f5c"
+    },
+    {
+      "path": "help/sample-portfolio/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/sample-portfolio/index.html",
+      "bytes": 16214,
+      "sha256": "8e567a660ee9fec91aff7a8797eb7dd775d91cbb405378f0f6d66b66bed0ef04"
+    },
+    {
+      "path": "help/smsf-auditor/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/smsf-auditor/index.html",
+      "bytes": 16120,
+      "sha256": "8cb2fc30d0cc2e73b099610411fb3097b7ef5a229c5fe9735dd01d45567defaa"
+    },
+    {
+      "path": "help/smsf-bgl-simple-fund-360/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/smsf-bgl-simple-fund-360/index.html",
+      "bytes": 17808,
+      "sha256": "ba4bba683cae13aaa499161cf4770efef63983ddfa0163860c6055f8c939a7f9"
+    },
+    {
+      "path": "help/smsf-class-super/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/smsf-class-super/index.html",
+      "bytes": 16697,
+      "sha256": "bb4ce1c145a73c963babef8da9c315122379926d8278003e1a64dbdd1440cde4"
+    },
+    {
+      "path": "help/smsf-overview/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/smsf-overview/index.html",
+      "bytes": 16621,
+      "sha256": "3678f97c9680690d16db01b93a01fe7276c397b211a16b747cc26c43e5dd2e2b"
+    },
+    {
+      "path": "help/staking-income/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/staking-income/index.html",
+      "bytes": 16279,
+      "sha256": "48c7a6e30d381e1cca2cf62f7d90d3127abe041ccbbc2eb65654537346b8cf83"
+    },
+    {
+      "path": "help/tax-estimate/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/tax-estimate/index.html",
+      "bytes": 17214,
+      "sha256": "e737bfddcfd2872cbfbf85159ccc5121e0df92ca2530ffdd7add52a80c6b7449"
+    },
+    {
+      "path": "help/trader-or-investor/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/trader-or-investor/index.html",
+      "bytes": 16504,
+      "sha256": "609596b495d40a8482cd3d51780b427f5f284b5b317a772441904cf34bd51aca"
+    },
+    {
+      "path": "help/transfers-between-your-wallets/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/transfers-between-your-wallets/index.html",
+      "bytes": 17014,
+      "sha256": "2ac35e52906ce208929454e14f943267fca159d895d6e886f1dfe03c36e40814"
+    },
+    {
+      "path": "help/what-is-taxflow/",
+      "kind": "directory"
+    },
+    {
+      "path": "help/what-is-taxflow/index.html",
+      "bytes": 16920,
+      "sha256": "c34ba426557818526cc58c24e9b2a2ce23e36918a056464813bcc8280df88c73"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 4035,
+      "sha256": "c2005d73a04465274ae2a85a9748875deae773bb48a103f3c43e3319618af4d3"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 19305,
+      "sha256": "814d93edb5b13c6e3eee62ce15cdfccb8c536468a245636f2c7570e9993b2dfb"
+    },
+    {
+      "path": "icon-maskable-512.png",
+      "bytes": 10713,
+      "sha256": "e54b794b9f3de8ac6d7dd95cd08cbd24a158c6170c8610fc4e4ba96d8928b6c9"
+    },
+    {
+      "path": "index.html",
+      "bytes": 36212,
+      "sha256": "413c7047bc11b84a953cfcff29a96157c06ba9e31dd89c90267b7a5d0c8ba541"
+    },
+    {
+      "path": "legal/",
+      "kind": "directory"
+    },
+    {
+      "path": "legal/disclaimer/",
+      "kind": "directory"
+    },
+    {
+      "path": "legal/disclaimer/index.html",
+      "bytes": 12312,
+      "sha256": "e54afe1571b9fd6396fa2bf71ec9513faeb2db954384dfa684661fd4073faa85"
+    },
+    {
+      "path": "legal/privacy/",
+      "kind": "directory"
+    },
+    {
+      "path": "legal/privacy/index.html",
+      "bytes": 13084,
+      "sha256": "5c11c7a8c5109bfe7a814f45cc901a550fd9b4279218425c318363859bceef35"
+    },
+    {
+      "path": "legal/terms/",
+      "kind": "directory"
+    },
+    {
+      "path": "legal/terms/index.html",
+      "bytes": 12795,
+      "sha256": "7fbde516c4540a76613d1091af53482e3ae53adf1c2aa65e67b814809ca7f41b"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 696,
+      "sha256": "ede9d0ed37e11075b63048f90f763229265380cf5522d114b05ab4b693be3a30"
+    },
+    {
+      "path": "og-image.png",
+      "bytes": 298369,
+      "sha256": "183cd17e68fb2481233ff450d6d0e4f2ef742ba4372b7b8826b4e314b2ffcbc3"
+    },
+    {
+      "path": "pricing/",
+      "kind": "directory"
+    },
+    {
+      "path": "pricing/index.html",
+      "bytes": 14012,
+      "sha256": "2638d8463aa38c5c15ded9f498862db9dba4fbb0122a45521004aa0521fecb42"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 26,
+      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+    },
+    {
+      "path": "security/",
+      "kind": "directory"
+    },
+    {
+      "path": "security/index.html",
+      "bytes": 16519,
+      "sha256": "0e7426edc6afa81c32c121330b03ead3a89379d9e6e94537655b63fc7af870dc"
+    },
+    {
+      "path": "shots/",
+      "kind": "directory"
+    },
+    {
+      "path": "shots/README.md",
+      "bytes": 1487,
+      "sha256": "1aef123c712763fba68448b75934e3e505da9cf3fbc8a7537d82a3d4963ae2b3"
+    },
+    {
+      "path": "shots/bas-desktop-dark.webp",
+      "bytes": 142786,
+      "sha256": "34b107a2836fa5922c5f0396d406824e5ecea598cde4f625c2ae0c696a76a7cf"
+    },
+    {
+      "path": "shots/bas-desktop-light.webp",
+      "bytes": 156130,
+      "sha256": "473158b0af2c1afb57e5de7b242b94bbd1a842be58e5af80c419cdcb94d23c38"
+    },
+    {
+      "path": "shots/bas-mobile-dark.webp",
+      "bytes": 77190,
+      "sha256": "59d7614ecb6bc14c24ad277b984a2b4448080aa8d8d788744d30f9a94ea6f8f3"
+    },
+    {
+      "path": "shots/bas-mobile-light.webp",
+      "bytes": 82180,
+      "sha256": "cdc4c2a30043aa1897ac600743df2340feed0474715266eb22fde5f0238b4d55"
+    },
+    {
+      "path": "shots/dashboard-dark.webp",
+      "bytes": 88068,
+      "sha256": "6697c66c5cbda4e963ec9af7d0763fa4ef0901619a72bd12b81be9a4113a1e19"
+    },
+    {
+      "path": "shots/dashboard-light.webp",
+      "bytes": 93544,
+      "sha256": "07b7e96fa493e4c4cb400f006b1a0398a57cff5e4deaab5f8d4a24be104f8028"
+    },
+    {
+      "path": "shots/flow-dark.webp",
+      "bytes": 122448,
+      "sha256": "db48164f795f9d210b4531116d83d117bd4c84592ef2d09f3e77a019be867433"
+    },
+    {
+      "path": "shots/flow-light.webp",
+      "bytes": 131144,
+      "sha256": "4d7894aef07f3f41dcc03b8f3fd322c254d69960fceb4c96a6d80f42556da1c6"
+    },
+    {
+      "path": "shots/import-desktop-dark.webp",
+      "bytes": 89748,
+      "sha256": "a45473046906822ef34ada83e509b7c60f2f3255f56f8195385d1fb82e2b945c"
+    },
+    {
+      "path": "shots/import-desktop-light.webp",
+      "bytes": 95344,
+      "sha256": "1f487b0c0d818e2c22aa2d32fdfeb8efe7d382356f13d99798b21ec0ae251094"
+    },
+    {
+      "path": "shots/import-mobile-dark.webp",
+      "bytes": 52944,
+      "sha256": "27afe002be1f6fc137ba42ade71be49591834e7d163487fcf42db456d62f8fd0"
+    },
+    {
+      "path": "shots/import-mobile-light.webp",
+      "bytes": 55430,
+      "sha256": "9a78a3932d5eb877a765a747f3abd641f3736962428d938bb27653919dc67184"
+    },
+    {
+      "path": "shots/optimise-dark.webp",
+      "bytes": 103194,
+      "sha256": "326da293da253c27d0de99276fe125ff5a43e3fe2290943e62ed2328fe841df6"
+    },
+    {
+      "path": "shots/optimise-light.webp",
+      "bytes": 111094,
+      "sha256": "9d25c1d3792e0b33a410150146da0b888f89a1e20ab6d2d2c927f38423b274a4"
+    },
+    {
+      "path": "shots/overview-desktop-dark.webp",
+      "bytes": 120130,
+      "sha256": "87f206c2b2fd9758175af803b22d3f8804dedc22eca0d18636f93e38c4dc57e4"
+    },
+    {
+      "path": "shots/overview-desktop-light.webp",
+      "bytes": 126934,
+      "sha256": "786c47eb38708a9a9e7d0ff7c9bf8d3005755bd01a33fe431e74d621780dced0"
+    },
+    {
+      "path": "shots/overview-mobile-dark.webp",
+      "bytes": 62412,
+      "sha256": "4168ecd6ff8f22a06ea10dde0fda34f2e92be77c0e6ec12149bd91dd2eb0e37b"
+    },
+    {
+      "path": "shots/overview-mobile-light.webp",
+      "bytes": 65370,
+      "sha256": "e3973ea21113d5b81a077ad0ae9b44858553d9be6b2a6c63184e5f8aec549002"
+    },
+    {
+      "path": "shots/reports-dark.webp",
+      "bytes": 135130,
+      "sha256": "47c4d2041155c04eab0e013c8f2d24401b6143ca19162cdcbb275326ccad7da3"
+    },
+    {
+      "path": "shots/reports-light.webp",
+      "bytes": 140304,
+      "sha256": "7ec5f8ca4568c751c51fee513197355dd62e22d6726ef5aa754f90464ee0b7dc"
+    },
+    {
+      "path": "shots/review-dark.webp",
+      "bytes": 123500,
+      "sha256": "0c41aa9f60ff5bdc907a05f8d0fc58b44386cb6b4d56cec3281366b692fb3d23"
+    },
+    {
+      "path": "shots/review-light.webp",
+      "bytes": 131158,
+      "sha256": "594f2ac0043ad735eae856297439f1441490717192c78f72575d827206d6ed20"
+    },
+    {
+      "path": "shots/transactions-drawer-dark.webp",
+      "bytes": 70402,
+      "sha256": "791544e5c28880cdbd9f54dc14eeba769e341ca3b6b176066a4bb366aab7ddce"
+    },
+    {
+      "path": "shots/transactions-drawer-light.webp",
+      "bytes": 80178,
+      "sha256": "96095afcaf93a8eabba8a039ac49c20d435c67debdb3f9a2b7130423bedd579e"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 6420,
+      "sha256": "9228204620552b8feee03809b9721c4bd70232c9a5578ec76c6655822f988033"
+    }
+  ]
+}

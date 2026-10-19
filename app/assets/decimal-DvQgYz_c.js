@@ -1,1 +1,0 @@
-import{t as e}from"./decimal-i_D9dVJK.js";var t=e.clone({precision:60,rounding:e.ROUND_HALF_UP}),n=new t(0);function r(e){let n=e.trim().replace(/^\$/,``).replace(/,/g,``);return/^[+-]?(?:\d+(?:\.\d*)?|\.\d+)$/.test(n)?new t(n):null}export{n,r,t};
