@@ -1,1 +1,0 @@
-import{t as e}from"./jsx-runtime-BsPR_7g3.js";import{i as t}from"./wallet-inventory-BLweDWKQ.js";var n=e(),r={events:[],excluded:[],imports:[],sources:{}};function i(e,n){return t(e,n??r).map(e=>e.name)}function a({id:e,names:t}){return(0,n.jsx)(`datalist`,{id:e,children:t.map(e=>(0,n.jsx)(`option`,{value:e},e))})}export{i as n,a as t};
