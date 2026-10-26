@@ -1,0 +1,4 @@
+import{Hn as e}from"./locks-DEdptHrz.js";import{n as t}from"./csv-DpBe81AT.js";var n=e=>/[",\r\n]/.test(e)?`"${e.replace(/"/g,`""`)}"`:e;function r(r,i=`CSV`){if(/^[\s﻿]*sep\s*=/i.test(r))throw Error(`CSV export blocked: separator directives are not supported. No CSV file was exported.`);let a=e(r);if(!a.ok)throw Error(`CSV export blocked: malformed comma-separated data at line ${a.line}. No CSV file was exported.`);let o=``,s=0,c=r.length;for(;s<c;){let e=s,i=``;if(r[s]===`"`)for(s+=1;s<c;){if(r[s]===`"`){if(r[s+1]===`"`){i+=`"`,s+=2;continue}s+=1;break}i+=r[s],s+=1}else{for(;s<c&&r[s]!==`,`&&r[s]!==`\r`&&r[s]!==`
+`;)s+=1;i=r.slice(e,s)}let a=t(i);if(o+=a===n(i)?r.slice(e,s):a,s>=c)break;if(r[s]===`,`){o+=`,`,s+=1;continue}let l=r[s]===`\r`&&r[s+1]===`
+`?`\r
+`:r[s];o+=l,s+=l.length}return o}function i(e){return e.map(e=>/\.csv$/i.test(e.name)?{...e,text:r(e.text,e.name)}:e)}export{r as n,i as t};
