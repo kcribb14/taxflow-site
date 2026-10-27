@@ -1,1 +1,0 @@
-import{t as e}from"./jsx-runtime-BsPR_7g3.js";import{n as t,t as n}from"./stages-Brojs8PM.js";var r=e(),i=t(`S1`);function a(e){return(0,r.jsx)(n,{...e})}export{a as Stage,i as model};
