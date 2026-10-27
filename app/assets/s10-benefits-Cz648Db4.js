@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-BsPR_7g3.js";import{i as t,t as n}from"./views-CpxJQ0Wa.js";var r=e(),i=t;function a({snapshot:e}){return(0,r.jsx)(n,{asOf:e?.scope.today??null},`${e?.scope.activeId??`public`}:${e?.scope.generation??0}`)}export{a as Stage,i as model};
